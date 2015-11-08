@@ -26,6 +26,7 @@ package prjava02;
             		InetAddress adreça = InetAddress.getLocalHost(); 
             		String hostname = adreça.getHostName(); 
             		System.out.println("hostname="+hostname); 
+			System.out.println("Conflicte típic: Codi diferent a una mateixa línia"); 
             		System.out.println("Nom de l'usuari: " + System.getProperty("user.name")); 
             		System.out.println("Carpeta Personal: " + System.getProperty("user.home")); 
             		System.out.println("Sistema operatiu: " + System.getProperty("os.name")); 
